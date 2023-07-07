@@ -1,6 +1,7 @@
 import { styled } from "styled-components";
 import Header from "../components/Header";
 import Cow from "../assets/White-cow.png";
+import SideBar from "../components/SideBar";
 
 export default function HomePage() {
     return (
@@ -36,6 +37,7 @@ export default function HomePage() {
                     <p>Lançar Morte de Animal</p>
                 </BoxContent>
             </App>
+            <SideBar />
         </>
     )
 }
