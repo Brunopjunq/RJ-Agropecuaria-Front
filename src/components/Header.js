@@ -26,6 +26,7 @@ const HeaderContainer = styled.header`
     top: 0;
     left: 0;
     z-index: 1;
+    margin-bottom: 70px;
 
     img {
         height: 60px;

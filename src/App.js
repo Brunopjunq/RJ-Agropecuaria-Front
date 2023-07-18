@@ -4,6 +4,7 @@ import SignInPage from './pages/SignInPage';
 import SignUpPage from './pages/SignUpPage';
 import HomePage from './pages/HomePage';
 import GlobalStyle from './styles/globalStyles';
+import AddAnimalPage from './pages/AddAnimalPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' element={<SignInPage />} />
           <Route path='/sign-up' element={<SignUpPage />} />
           <Route path='/home' element={<HomePage />} />
+          <Route path='/addAnimal' element={<AddAnimalPage />} />
         </Routes>
       </BrowserRouter>
     </>

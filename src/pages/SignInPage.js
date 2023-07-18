@@ -44,7 +44,7 @@ const LogoBox = styled.div`
     }
 `
 
-const InputBox = styled.div`
+const InputBox = styled.form`
     display: flex;
     flex-direction: column;
 
