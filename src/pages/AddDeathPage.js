@@ -1,30 +1,22 @@
 import Header from "../components/Header";
 import { styled } from "styled-components";
 
-export default function AddAnimalPage() {
+export default function AddDeathPage() {
     return (
         <>
             <Header />
             <App>
-                <p>Adicionar Animal</p>
+                <p>Lançar Morte</p>
                 <InputBox>
                     <input 
                     placeholder="Tag do Animal"
                     name="tag"
                     />
                     <input
-                    placeholder="Sexo (M ou F)"
+                    placeholder="Data da Morte"
                     name="sexo"
                     />
-                    <input
-                    placeholder="Tag da Mãe"
-                    name="tagMae"
-                    />
-                    <input
-                    placeholder="Tag do Pai"
-                    name="tagPai"
-                    />
-                    <button>Cadastrar Animal</button>
+                    <button>Lançar Morte</button>
                 </InputBox>
             </App>
         </>

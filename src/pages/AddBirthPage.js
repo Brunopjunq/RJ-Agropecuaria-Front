@@ -1,12 +1,12 @@
 import Header from "../components/Header";
 import { styled } from "styled-components";
 
-export default function AddAnimalPage() {
+export default function AddBirthPage() {
     return (
         <>
             <Header />
             <App>
-                <p>Adicionar Animal</p>
+                <p>Adicionar Nascimento</p>
                 <InputBox>
                     <input 
                     placeholder="Tag do Animal"
@@ -17,6 +17,10 @@ export default function AddAnimalPage() {
                     name="sexo"
                     />
                     <input
+                    placeholder="Data do Nascimento"
+                    name="birthDate"
+                    />
+                    <input
                     placeholder="Tag da Mãe"
                     name="tagMae"
                     />
@@ -24,7 +28,7 @@ export default function AddAnimalPage() {
                     placeholder="Tag do Pai"
                     name="tagPai"
                     />
-                    <button>Cadastrar Animal</button>
+                    <button>Cadastrar Nascimento</button>
                 </InputBox>
             </App>
         </>
