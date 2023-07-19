@@ -6,6 +6,7 @@ import GlobalStyle from './styles/globalStyles';
 import AddAnimalPage from './pages/AddAnimalPage';
 import AddBirthPage from './pages/AddBirthPage';
 import AddDeathPage from './pages/AddDeathPage';
+import AddSalePage from './pages/AddSalePage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/addAnimal' element={<AddAnimalPage />} />
           <Route path='/addBirth' element={<AddBirthPage />} />
           <Route path='/addDeath' element={<AddDeathPage />} />
+          <Route path='/addSale' element={<AddSalePage />} />
         </Routes>
       </BrowserRouter>
     </>

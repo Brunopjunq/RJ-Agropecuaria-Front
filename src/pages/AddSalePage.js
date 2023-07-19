@@ -1,26 +1,26 @@
 import Header from "../components/Header";
 import { styled } from "styled-components";
 
-export default function AddDeathPage() {
+export default function AddSalePage() {
     return (
         <>
             <Header />
             <App>
-                <p>Lançar Morte</p>
+                <p>Lançar Venda</p>
                 <InputBox>
                     <input 
                     placeholder="Tag do Animal"
                     name="tag"
                     />
                     <input
-                    placeholder="Data da Morte"
+                    placeholder="Data da Venda"
                     name="date"
                     />
                     <input
-                    placeholder="Causa da Morte"
-                    name="cause"
+                    placeholder="Tipo da Venda"
+                    name="type"
                     />
-                    <button>Lançar Morte</button>
+                    <button>Lançar Venda</button>
                 </InputBox>
             </App>
         </>
