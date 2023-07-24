@@ -14,49 +14,49 @@ export default function HomePage() {
             <Header />
             <App>
                 <BoxContent color={'#592323'}>
-                    <img src={Cow} />
+                    <img src={Cow} alt="cow" />
                     <CgAdd
                         style={styleA}
                     />
                     <p>Adicionar Animal</p>
                 </BoxContent>
                 <BoxContent color={'#25272b'}>
-                    <img src={Cow} />
+                    <img src={Cow} alt="cow" />
                     <CgAdd
                         style={styleA}
                     />
                     <p>Adicionar Nascimento</p>
                 </BoxContent>
                 <BoxContent color={'#2b1847'}>
-                    <img src={Cow} />
+                    <img src={Cow} alt="cow" />
                     <BsSearch
                         style={styleS}
                     />
                     <p>Consultar Pasto</p>
                 </BoxContent>
                 <BoxContent color={'#461a4f'}>
-                    <img src={Cow} />
+                    <img src={Cow} alt="cow" />
                     <BsSearch
                         style={styleS}
                     />
                     <p>Consultar Cobertura</p>
                 </BoxContent>
                 <BoxContent color={'#4f3e16'}>
-                    <img src={Cow} />
+                    <img src={Cow} alt="cow" />
                     <BsSearch
                         style={styleS}
                     />
                     <p>Consultar Animais</p>
                 </BoxContent>
                 <BoxContent color={'#0f3822'}>
-                    <img src={Cow} />
+                    <img src={Cow} alt="cow" />
                     <CgAdd
                         style={styleA}
                     />
                     <p>Lançar Venda de Animal</p>
                 </BoxContent>
                 <BoxContent color={'#3b3d11'}>
-                    <img src={Cow} />
+                    <img src={Cow} alt="cow" />
                     <CgAdd
                         style={styleA}
                     />
