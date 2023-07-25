@@ -8,6 +8,7 @@ import AddBirthPage from './pages/AddBirthPage';
 import AddDeathPage from './pages/AddDeathPage';
 import AddSalePage from './pages/AddSalePage';
 import PastosPage from './pages/PastosPage';
+import CoberturasPage from './pages/CoberturasPage';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/addDeath' element={<AddDeathPage />} />
           <Route path='/addSale' element={<AddSalePage />} />
           <Route path='/pastos' element={<PastosPage />} />
+          <Route path='/coberturas' element={<CoberturasPage />} />
         </Routes>
       </BrowserRouter>
     </>
