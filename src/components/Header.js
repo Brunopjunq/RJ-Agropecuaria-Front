@@ -1,13 +1,15 @@
 import styled from "styled-components";
 import MiniLogo from "../assets/Mini-Logo.png";
 import { AiOutlineMenu } from 'react-icons/ai'
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
     const style = { color: "white", fontSize: "2.4em" }
+    const navigate = useNavigate();
 
     return (
         <HeaderContainer>
-            <img src={MiniLogo} alt="logo" />
+            <img onClick={() => navigate("/home")} src={MiniLogo} alt="logo" />
             <div>
                 <AiOutlineMenu style={style} />
             </div>
